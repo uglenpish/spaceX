@@ -1,0 +1,32 @@
+.main{
+	text-align: center;
+	margin-top: 120px;
+}
+
+.title{
+	font-weight: 400;
+	font-style: normal;
+	font-size: 64px;
+	line-height: 75px;
+}
+
+.descripton{
+	margin: auto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 140%;
+	max-width: 268px;
+	padding-top: 26px;
+
+	&:after{
+		content: "";
+		display: block;
+		width: 1px;
+		height: 60px;
+		background-color: #fff;
+		margin: auto;
+		margin-top: 26px;
+	}
+}
+
