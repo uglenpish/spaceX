@@ -69,7 +69,8 @@ task("styles", () => {
 
 const libs = [
 	"node_modules/jquery/dist/jquery.js",
-	"src/scripts/*.js"
+	"src/scripts/*.js",
+    "node_modules/rellax/rellax.js",
 ]
 
 task("scripts", () => {

@@ -456,7 +456,7 @@ html {
 .features {
   padding: 50px 0;
   position: relative;
-  margin-top: 440px;
+  margin-top: 140px;
 }
 
 .table__row {
@@ -483,7 +483,8 @@ html {
   height: 1718px;
   position: absolute;
   left: 630px;
-  top: -460px;
+  top: 0;
+  z-index: 99;
 }
 
 .roccet__img {
